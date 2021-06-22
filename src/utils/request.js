@@ -2,7 +2,7 @@ import axios from "axios";
 import { Toast } from "vant";
 const service = axios.create({
   baseURL: process.env.VUE_APP_BASE_API,
-  timeout: 70000 
+  timeout: 50000 
 });
 
 // request interceptor
